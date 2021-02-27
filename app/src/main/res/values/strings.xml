@@ -9,5 +9,27 @@
       or implied. See the License for the specific language governing permissions and limitations under
       the License.
       -->
-    <string name="app_name">狗狗领养站</string>
+    <string name="app_name">Puppy Adoption</string>
+    <string name="puppy_detail">Puppy Detail</string>
+    <string name="puppy_adoption_list">Adoption List</string>
+    <string name="puppy_card_description">%d months · %.01f kg"</string>
+
+
+    <string name="teddy">Teddy</string>
+    <string name="teddy_des">Self-raised dogs due to the relocation of the factory need to be free of charge, very smart and human nature, will be a lot of work, dog supplies can be given, need to mention, address Longhua District, Shenzhen City Guanlan</string>
+
+    <string name="bulldog">Bulldog</string>
+    <string name="bulldog_des">One year old, obedient clever, do not bite do not call, exercise is small, love clean will himself outside shit and pee. Clingy cute, like to sleep, ugly ugly cute. Vaccines, deworming done, not neutered, complimentary dog kit. I can\'t keep it because of my work. Hope good people give him a home.</string>
+
+    <string name="akita">Akita</string>
+    <string name="akita_des">An express to come over but no one claim of the puppy, see it poor temporarily raised for a period of time, but the parents really do not support raising, so have to send, hope to find a reliable dog people to adopt. The dog is very lively, can run and jump, and is also very smart. At present, the dog has been trained to pee and defecate at fixed point, and eats nothing at ordinary times. Yes, I will give away the dog cage, dog kennel, vaccines and other things I have bought so far.</string>
+
+    <string name="chinese_country_dog">Country Dog</string>
+    <string name="chinese_country_dog_des">2 years old has been sterilized clever obedient not noisy not noisy suitable to accompany the elderly or children in the home of the predestined person.</string>
+
+    <string name="husky">Husky</string>
+    <string name="husky_des">Adult huskies (female), sterilization, was born in 2016, about 5 years of age, appearance, physical condition is normal, no health problems, about 19 kg weight, gentle personality, more intelligent, and because of this year home building modification, plus I work is busy, generally don\'t have much time to take care of, so want to find a suitable pet master, wuxi luoshe town, yangshan is preferred.</string>
+
+    <string name="alaska">Alaska</string>
+    <string name="alaska_des">Due to the opposition of parents at home, communication many times fruitless, three months of Alaska to find a new owner, small compensation, present all supplies used.</string>
 </resources>

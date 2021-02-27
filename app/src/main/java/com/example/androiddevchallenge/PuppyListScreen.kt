@@ -51,6 +51,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.imageResource
+import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.androiddevchallenge.ui.theme.genderFeMaleColor
@@ -93,7 +95,7 @@ fun OverViewAppBar(
 ) {
     TopAppBar(
         modifier = modifier,
-        title = { Text(text = "领养列表") },
+        title = { Text(text = stringResource(id = R.string.puppy_adoption_list)) },
         backgroundColor = MaterialTheme.colors.background.copy(alpha = 0.95f),
         elevation = 3.dp, // No shadow needed
         contentColor = MaterialTheme.colors.onSurface,
@@ -143,9 +145,11 @@ fun PuppyDetailItem(
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = puppyDetail.species,
+                        text = stringResource(id = puppyDetail.species),
                         color = MaterialTheme.colors.onSurface,
                         style = MaterialTheme.typography.subtitle1,
+                        maxLines = 1,
+                        overflow = TextOverflow.Ellipsis
                     )
                     Spacer(modifier = Modifier.width(8.dp))
                     Icon(
@@ -156,7 +160,7 @@ fun PuppyDetailItem(
                     )
                 }
                 Text(
-                    text = "${puppyDetail.age}个月 · ${puppyDetail.weight}公斤",
+                    text = stringResource(id = R.string.puppy_card_description, puppyDetail.age, puppyDetail.weight),
                     style = MaterialTheme.typography.overline
                 )
             }

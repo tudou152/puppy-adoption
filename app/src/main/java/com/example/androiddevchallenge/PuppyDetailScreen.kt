@@ -41,6 +41,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.ImageBitmap
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.imageResource
+import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
@@ -67,7 +68,7 @@ fun PuppyDetailScreen(puppyDetail: PuppyDetail, onBackPress: () -> Unit) {
                     .fillMaxSize()
             ) {
                 Text(
-                    text = puppyDetail.species,
+                    text = stringResource(id = puppyDetail.species),
                     style = MaterialTheme.typography.h6,
                     modifier = Modifier.padding(top = 8.dp)
                 )
@@ -77,7 +78,7 @@ fun PuppyDetailScreen(puppyDetail: PuppyDetail, onBackPress: () -> Unit) {
                     verticalAlignment = Alignment.CenterVertically
                 ) {
                     Text(
-                        text = "${puppyDetail.age}个月 · ${puppyDetail.weight}公斤 ·",
+                        text = stringResource(id = R.string.puppy_card_description, puppyDetail.age, puppyDetail.weight) + " ·",
                         style = MaterialTheme.typography.subtitle1
                     )
                     Icon(
@@ -93,7 +94,7 @@ fun PuppyDetailScreen(puppyDetail: PuppyDetail, onBackPress: () -> Unit) {
                         .fillMaxWidth()
                         .wrapContentHeight()
                 ) {
-                    Text(text = puppyDetail.description, style = MaterialTheme.typography.body2)
+                    Text(text = stringResource(id = puppyDetail.description), style = MaterialTheme.typography.body2)
                 }
             }
         }
@@ -107,7 +108,7 @@ fun DetailAppBar(
 ) {
     TopAppBar(
         modifier = modifier,
-        title = { Text(text = "狗狗详情") },
+        title = { Text(text = stringResource(id = R.string.puppy_detail)) },
         backgroundColor = MaterialTheme.colors.background.copy(alpha = 0.95f),
         elevation = 3.dp, // No shadow needed
         contentColor = MaterialTheme.colors.onSurface,

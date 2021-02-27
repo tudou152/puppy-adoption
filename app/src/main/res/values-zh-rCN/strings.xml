@@ -1,0 +1,36 @@
+<resources>
+    <!--
+      Copyright 2020 The Android Open Source Project
+      Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except
+      in compliance with the License. You may obtain a copy of the License at
+      http://www.apache.org/licenses/LICENSE-2.0
+      Unless required by applicable law or agreed to in writing, software distributed under the License
+      is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express
+      or implied. See the License for the specific language governing permissions and limitations under
+      the License.
+      -->
+    <string name="app_name">狗狗领养站</string>
+    <string name="puppy_detail">狗狗详情</string>
+    <string name="puppy_adoption_list">领养列表</string>
+    <string name="puppy_card_description">%d个月 · %.01f公斤"</string>
+
+
+    <string name="teddy">泰迪</string>
+    <string name="teddy_des">自养狗狗因工厂搬迁需免费赠养，很聪明通人性，会很多工作，狗狗用品齐全可以赠送，需要自提，地址深圳市龙华区观澜。</string>
+
+
+    <string name="bulldog">斗牛犬</string>
+    <string name="bulldog_des">一岁的弟弟，听话乖巧，不咬不叫，运动量小，爱干净会自己在外面拉屎拉尿。黏人可爱，喜欢睡觉，丑萌丑萌的。疫苗，驱虫已做，未绝育，赠送狗的用具。因为工作原因无法继续养了。希望好心人给他一个家。</string>
+
+    <string name="akita">秋田犬</string>
+    <string name="akita_des">一只快递过来但无人认领的小狗，看它可怜就暂养了一段时间，但父母实在不支持养，所以不得不送人，希望找个可靠爱狗的人领养。目测三个月左右大，已经买好了疫苗，并且打好一针了，狗狗很活泼，能跑能跳，也很聪明，目前经过训练已经会定点大小便，平时啥都吃，不挑。愿意领养，我会附带把狗笼、狗窝、疫苗等目前我已经买好的东西都一并赠送。</string>
+
+    <string name="chinese_country_dog">中华田园犬</string>
+    <string name="chinese_country_dog_des">2岁 已绝育 乖巧听话 不吵不闹 适合陪伴老人 或者家里有小孩的有缘人。</string>
+
+    <string name="husky">哈士奇</string>
+    <string name="husky_des">成年哈士奇(母)，已绝育，2016年初生，约5周岁，品相优，身体条件正常，无健康问题，体重约19Kg，性格温顺，较聪颖，因今年家中房屋修改，加之本人工作一般都较忙，没有太多时间照顾，所以想找一位合适的宠主，无锡洛社、阳山周边优先考虑。</string>
+
+    <string name="alaska">阿拉斯加</string>
+    <string name="alaska_des">由于家里父母反对，沟通多次无果，三个月的阿拉斯加求找新主人，小偿，赠送目前使用全部用品。</string>
+</resources>
