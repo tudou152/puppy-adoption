@@ -1,4 +1,4 @@
-# 狗狗领养站
+# puppy adoption
 
 <!--- Replace <OWNER> with your Github Username and <REPOSITORY> with the name of your repository. -->
 <!--- You can find both of these in the url bar when you open your repository in github. -->
@@ -6,11 +6,11 @@
 
 
 ## :scroll: Description
-帮助那些想要领养狗狗的人找到适合他的宠物犬
+Help people who want to adopt a dog find the right dog for them
 
 
 ## :bulb: Motivation and Context
-界面非常干净整洁
+The interface is very clean and tidy
 
 ## :camera_flash: Screenshots
 <img src="/results/screenshot_1.png" width="260">&emsp;<img src="/results/screenshot_2.png" width="260">
